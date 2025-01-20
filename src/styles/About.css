@@ -26,6 +26,10 @@
     padding: 25px;
 }
 
+.aboutInfo.serviceInfo {
+    height: 650px;
+}
+
 .aboutInfo::before {
     background: linear-gradient(to right, #120f00, transparent);
     content: "";
@@ -37,13 +41,18 @@
     z-index: 1;
 }
 
-.aboutInfo p {
+.aboutTitle {
     font-size: 48px;
+    max-width: 360px;
+    line-height: 1em;
+    z-index: 1;
 }
 
-.aboutInfo span {
+.aboutDesc {
+    display: flex;
     font-size: 20px;
     max-width: 520px;
+    z-index: 1;
 }
 
 .about-grid {

@@ -31,7 +31,7 @@
 
 .heading.blockHead {
     font-size: 64px;
-    max-width: 950px;
+    max-width: 925px;
     line-height: 0.95em;
 }
 
@@ -47,6 +47,10 @@
     align-items: center;
     gap: 16px;
     font-size: 14px;
+}
+
+.links.servicesLinks {
+    margin-top: 30px;
 }
 
 .links a {

@@ -1,0 +1,26 @@
+.serviceImg {
+    background-color: #ffd900;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 16px;
+    z-index: 1;
+    margin-bottom: 28px;
+}
+
+.serviceList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    gap: 8px;
+    max-width: 520px;
+}
+
+.serviceList div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ffd900;
+    padding: 10px 12.5px;
+    font-size: 14px;
+}

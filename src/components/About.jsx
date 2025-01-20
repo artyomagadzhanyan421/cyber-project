@@ -10,14 +10,14 @@ function About() {
       <p className="heading blockHead">We provide tailored cybersecurity solutions to protect your business from digital threats.</p>
 
       <div className="aboutGrid">
-        <div className='aboutInfo'>
-          <p style={{ zIndex: 1 }}>/ Mission</p>
-          <span style={{ zIndex: 1 }}>At Cipher, our mission is to provide innovative cybersecurity solutions that protect businesses and ensure data resilience in a dynamic cyber landscape.</span>
+        <div className='aboutInfo' style={{ zIndex: 1 }}>
+          <p className='aboutTitle'>/ Mission</p>
+          <span className='aboutDesc'>At Cipher, our mission is to provide innovative cybersecurity solutions that protect businesses and ensure data resilience in a dynamic cyber landscape.</span>
           <div className="about-grid"></div>
         </div>
-        <div className='aboutInfo'>
-          <p style={{ zIndex: 1 }}>/ Vision</p>
-          <span style={{ zIndex: 1 }}>our vision is to be a global leader in cybersecurity, creating a secure digital future for businesses through innovation and resilience against cyber threats.</span>
+        <div className='aboutInfo' style={{ zIndex: 1 }}>
+          <p>/ Vision</p>
+          <span>our vision is to be a global leader in cybersecurity, creating a secure digital future for businesses through innovation and resilience against cyber threats.</span>
           <div className="about-grid"></div>
         </div>
       </div>
@@ -48,7 +48,7 @@ function About() {
           <div className="aboutCube"></div>
           <p>Performance</p>
           <div className="aboutCube"></div>
-          
+
           <p>Trust</p>
           <div className="aboutCube"></div>
           <p>Integrity</p>
