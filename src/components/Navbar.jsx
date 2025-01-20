@@ -24,7 +24,7 @@ function Navbar() {
                     <span style={{ color: "black" }}>CIPHER</span>
                 </a>
                 <ul>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Solutions</a></li>
                     <li><a href="#">Industries</a></li>
                     <li><a href="#">Boost Security</a></li>
