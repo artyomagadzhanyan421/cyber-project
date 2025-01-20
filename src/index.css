@@ -9,4 +9,9 @@
   scroll-behavior: smooth;
   text-transform: uppercase;
   font-family: "Cousine", serif;
+  color: #ffd900;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

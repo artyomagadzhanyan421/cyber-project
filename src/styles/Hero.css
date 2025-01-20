@@ -1,0 +1,124 @@
+.Hero {
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+.Hero::before {
+    background: linear-gradient(to top, black, transparent);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0%;
+    left: 0%;
+    z-index: 2;
+}
+
+.heroTwo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 125px;
+}
+
+.heading {
+    font-size: 90px;
+    max-width: 880px;
+    font-weight: 500;
+    line-height: 0.98em;
+}
+
+.desc {
+    max-width: 480px;
+    margin: 20px 0px 30px 0px;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+}
+
+.links a {
+    padding: 10px 12.5px;
+    border: 1px solid #ffd900;
+}
+
+.links a:nth-last-child(2) {
+    color: black;
+    background-color: #ffd900;
+}
+
+.heroBlock {
+    position: relative;
+    background-color: #120f00;
+    border-top: 1px solid #ffd900;
+    padding: 20px;
+    z-index: 2;
+}
+
+.heroBlock::before {
+    background: linear-gradient(to right, #120f00, transparent);
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.heroBlock p:nth-child(2) {
+    font-size: 20px;
+    padding: 32px 0px 6px 0px;
+    z-index: 1;
+    position: inherit;
+}
+
+.heroBlock p:nth-child(3) {
+    color: #ffd900b3;
+    font-size: 14px;
+    line-height: 1.3em;
+    z-index: 1;
+    position: inherit;
+}
+
+.background-grid {
+    background-image: linear-gradient(#ffd9001a 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #ffd9001a calc(100% - 0.5px)), linear-gradient(90deg, #ffd9001a 0.5px, transparent 0.5px, transparent calc(100% - 0.5px), #ffd9001a calc(100% - 0.5px));
+    background-size: 7.142857142857143% 16.666666666666668%;
+    border: 0.5px solid #ffd9001a;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.heroImage {
+    position: absolute;
+    display: flex;
+    bottom: -60%;
+    right: 1.8%;
+    width: 850px;
+}
+
+.imageBlock::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #0000, black);
+    z-index: 1;
+}
+
+@media(min-width: 1496px) {
+    .Hero {
+        margin: auto;
+        width: 1496px;
+    }
+}
