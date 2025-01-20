@@ -16,8 +16,8 @@ function About() {
           <div className="about-grid"></div>
         </div>
         <div className='aboutInfo' style={{ zIndex: 1 }}>
-          <p>/ Vision</p>
-          <span>our vision is to be a global leader in cybersecurity, creating a secure digital future for businesses through innovation and resilience against cyber threats.</span>
+          <p className='aboutTitle'>/ Vision</p>
+          <span className='aboutDesc'>our vision is to be a global leader in cybersecurity, creating a secure digital future for businesses through innovation and resilience against cyber threats.</span>
           <div className="about-grid"></div>
         </div>
       </div>
