@@ -102,3 +102,9 @@
     height: 100%;
     z-index: 1;
 }
+
+@media(max-width: 1300px) {
+    .member {
+        grid-template-columns: 1fr;
+    }
+}

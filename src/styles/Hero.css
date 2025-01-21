@@ -114,7 +114,21 @@
     display: flex;
     bottom: -60%;
     right: 1.8%;
-    width: 850px;
+    max-width: 850px;
+}
+
+.heroImage img {
+    width: 100%;
+}
+
+.heroImage.joinImage {
+    position: initial;
+    bottom: initial;
+    right: initial;
+    margin: auto;
+    max-width: 950px;
+    padding: 0px 25px;
+    transform: translateY(115px);
 }
 
 .imageBlock::before {
@@ -124,6 +138,10 @@
     height: 100%;
     background: linear-gradient(180deg, #0000, black);
     z-index: 1;
+}
+
+.imageBlock.joinImg::before {
+    background: linear-gradient(180deg, #0000, #120f00);
 }
 
 @media(min-width: 1496px) {
