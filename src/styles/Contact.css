@@ -20,7 +20,7 @@ form {
     gap: 25px;
 }
 
-.formInput, 
+.formInput,
 form button {
     position: relative;
     z-index: 1;
@@ -59,7 +59,7 @@ form button:hover {
     font-size: 13px;
 }
 
-.formInput input, 
+.formInput input,
 .formInput textarea {
     background: none;
     outline: none;
@@ -71,12 +71,12 @@ form button:hover {
     transition: 0.3s;
 }
 
-.formInput input:hover, 
+.formInput input:hover,
 .formInput textarea:hover {
     border-color: #ffd90080;
 }
 
-.formInput input:focus, 
+.formInput input:focus,
 .formInput textarea:focus {
     border-color: #ffd90080;
 }
@@ -85,7 +85,7 @@ form button:hover {
     height: 230px;
 }
 
-.formInput input::placeholder, 
+.formInput input::placeholder,
 .formInput textarea::placeholder {
     color: #ffd90080;
 }

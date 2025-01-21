@@ -1,0 +1,10 @@
+footer {
+    padding: 0px 25px 130px 25px;
+}
+
+@media(min-width: 1496px) {
+    footer {
+        margin: auto;
+        width: 1496px;
+    }
+}

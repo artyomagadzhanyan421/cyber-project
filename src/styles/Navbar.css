@@ -20,9 +20,22 @@ nav ul li a {
     color: black;
     padding: 10px 12.5px;
     font-size: 14px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd900;
+    background: black;
 }
 
 nav ul li:nth-child(4) a {
     background-color: black;
     color: #ffd900;
+    border: 1px solid black;
+}
+
+nav ul li:nth-child(4) a:hover {
+    background-color: #ffd900;
+    color: black;
+
 }

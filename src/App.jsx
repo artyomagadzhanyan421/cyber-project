@@ -11,6 +11,7 @@ import Join from './components/Join';
 import Feedbacks from './components/Feedbacks';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Feedbacks />
       <Faq />
       <Contact />
+      <Footer />
     </div>
   )
 }
