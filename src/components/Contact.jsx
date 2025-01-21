@@ -5,7 +5,7 @@ import "../styles/Contact.css";
 
 function Contact() {
     return (
-        <div className='Block'>
+        <div className='Block' id='contact'>
             <p className="subHead">/ Let’s Boost Security</p>
             <p className="heading blockHead">Connect with Us to Begin Your Journey Toward Cybersecurity Protection</p>
 
@@ -16,7 +16,7 @@ function Contact() {
                         <p className='heroTitle'>Drop Us a Line</p>
                         <p className='heroDesc'>Need assistance? Shoot us an email, and we'll get back to you as soon as possible!</p>
                         <div className="links contactLinks">
-                            <a href="#">send email</a>
+                            <a href="mailto:artyom.agadzhanyan250@gmail.com">send email</a>
                         </div>
                         <div className="background-grid"></div>
                     </div>
@@ -26,7 +26,7 @@ function Contact() {
                         <p className='heroTitle'>Give Us a Call</p>
                         <p className='heroDesc'>Call us, and let’s talk about how we can support your cybersecurity needs.</p>
                         <div className="links contactLinks">
-                            <a href="#">call us</a>
+                            <a href="#contact">call us</a>
                         </div>
                         <div className="background-grid"></div>
                     </div>
@@ -36,7 +36,7 @@ function Contact() {
                         <p className='heroTitle'>Schedule a Call</p>
                         <p className='heroDesc'>Book a call with our experts, and let’s explore how Cipher can help protect you.</p>
                         <div className="links contactLinks">
-                            <a href="#">book a call</a>
+                            <a href="https://calendly.com/" target='_blank'>book a call</a>
                         </div>
                         <div className="background-grid"></div>
                     </div>
@@ -45,21 +45,21 @@ function Contact() {
                     <p className="formHead">Let’s Make Great Things Happen!</p>
                     <div className='formInput'>
                         <span>Full Name</span>
-                        <input type="text" placeholder='john anderson' />
+                        <input type="text" placeholder='john anderson' required />
                     </div>
                     <div className="contactInputs">
                         <div className='formInput'>
                             <span>email</span>
-                            <input type="email" placeholder='john.anderson@gmail.com' />
+                            <input type="email" placeholder='john.anderson@gmail.com' required />
                         </div>
                         <div className='formInput'>
                             <span>phone</span>
-                            <input type="number" placeholder='+1 (644) 466-6114' />
+                            <input type="number" placeholder='+1 (644) 466-6114' required />
                         </div>
                     </div>
                     <div className='formInput'>
                         <span>message</span>
-                        <textarea placeholder='how can we help you?'></textarea>
+                        <textarea placeholder='how can we help you?' required></textarea>
                     </div>
                     <button type="submit">send a message</button>
                 </form>

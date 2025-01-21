@@ -31,8 +31,15 @@ form button {
     cursor: pointer;
     color: black;
     background: #ffd900;
+    border: 1px solid #ffd900;
     padding: 20px;
     font-size: 14px;
+    transition: 0.3s
+}
+
+form button:hover {
+    color: #ffd900;
+    background: none;
 }
 
 .contactInputs {
@@ -48,6 +55,7 @@ form button {
 }
 
 .formInput span {
+    color: #ffd900b3;
     font-size: 13px;
 }
 

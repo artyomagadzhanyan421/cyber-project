@@ -6,8 +6,8 @@ function Join() {
             <center><p className="subHead">Join 5,000+ businesses trusting Cipher.</p></center>
             <center><p className="heading blockHead">Join the Cybersecurity Revolution and Safeguard Your Business Today</p></center>
             <div className="links servicesLinks" style={{ justifyContent: "center" }}>
-                <a href="#">boost security</a>
-                <a href="#">what others say</a>
+                <a href="#contact">boost security</a>
+                <a href="#feedbacks">what others say</a>
             </div>
             <div className="heroImage joinImage">
                 <div className="imageBlock joinImg" style={{ position: 'relative', display: "flex" }}>

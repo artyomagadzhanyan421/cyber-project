@@ -67,11 +67,22 @@
 .links a {
     padding: 10px 12.5px;
     border: 1px solid #ffd900;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: black;
+    background-color: #ffd900;
 }
 
 .links a:nth-last-child(2) {
     color: black;
     background-color: #ffd900;
+}
+
+.links a:nth-last-child(2):hover {
+    color: #ffd900;
+    background: none;
 }
 
 .heroBlock {

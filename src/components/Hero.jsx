@@ -9,8 +9,8 @@ function Hero() {
         <p className="heading">No Breaches, Only Bold Moves</p>
         <p className="desc">we empower you to take bold actions that secure your digital world and eliminate threats.</p>
         <div className="links">
-            <a href="#">Boost security</a>
-            <a href="#">About cipher</a>
+            <a href="#contact">Boost security</a>
+            <a href="#about">About cipher</a>
         </div>
 
         <div className="heroTwo">

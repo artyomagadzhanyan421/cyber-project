@@ -15,8 +15,8 @@ function Services() {
             <p className="subHead">/ Cyber Services</p>
             <p className="heading blockHead">Powerful Solutions for Unmatched Security</p>
             <div className="links servicesLinks">
-                <a href="#">Boost security</a>
-                <a href="#">About cipher</a>
+                <a href="#contact">Boost security</a>
+                <a href="#about">About cipher</a>
             </div>
 
             <div className="aboutGrid">
