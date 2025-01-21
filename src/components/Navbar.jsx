@@ -25,8 +25,8 @@ function Navbar() {
                 </a>
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#">Solutions</a></li>
-                    <li><a href="#">Industries</a></li>
+                    <li><a href="#services">Solutions</a></li>
+                    <li><a href="#feedbacks">Testimonials</a></li>
                     <li><a href="#">Boost Security</a></li>
                 </ul>
             </nav>

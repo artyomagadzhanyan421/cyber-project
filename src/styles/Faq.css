@@ -1,0 +1,35 @@
+.faqs {
+    margin: 80px auto auto auto;
+    max-width: 920px;
+}
+
+.faqs .faq:not(:nth-child(1)) {
+    margin-top: 20px;
+}
+
+.faq {
+    cursor: pointer;
+    background-color: #120f00;
+    border-top: 1px solid #ffd900;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.faq div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.answer {
+    color: #ffd900b3;
+    display: none;
+    padding-top: 20px;
+    line-height: 1.4em;
+    max-width: 800px;
+}
+
+.answer.show {
+    display: flex;
+}
