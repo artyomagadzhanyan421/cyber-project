@@ -39,7 +39,7 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: 14px;
-    gap: 8.8px;
+    gap: 9px;
 }
 
 @media(min-width: 1496px) {
