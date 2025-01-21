@@ -2,6 +2,10 @@
     padding: 100px 25px;
 }
 
+.Block.whyBlock {
+    padding: 100px 25px 0px 25px;
+}
+
 .subHead {
     color: #ffd900b3;
     font-size: 14px;
@@ -69,11 +73,40 @@
 
 .aboutSlides {
     background-color: #120f00;
-    border-top: 1px solid #ffd900;
     position: relative;
     overflow: hidden;
+    border-top: 1px solid #ffd900;
     padding: 20px 0px;
     margin: 20px 0px;
+}
+
+.whySlideshow {
+    padding: 100px 0px;
+}
+
+.slidesMain.slideTwo {
+    animation: scrollInfiniteTwo 20s linear infinite;
+}
+
+.whySpan {
+    display: flex;
+    text-align: center;
+    max-width: 400px;
+    padding-bottom: 100px;
+}
+
+.aboutSlides.whySlides {
+    background: none;
+    border-top: initial;
+    margin: initial;
+    padding: initial;
+}
+
+.aboutSlides.whySlides p {
+    background-color: #ffd900;
+    color: black;
+    padding: 15px 20px;
+    font-size: 22.5px;
 }
 
 .aboutCube {
@@ -163,6 +196,16 @@
 
     to {
         transform: translateX(-75%);
+    }
+}
+
+@keyframes scrollInfiniteTwo {
+    from {
+        transform: translateX(-75%);
+    }
+
+    to {
+        transform: translateX(0%);
     }
 }
 
