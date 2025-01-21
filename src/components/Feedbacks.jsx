@@ -16,8 +16,8 @@ function Feedbacks() {
 
             <div className="feedbacks">
                 {feedbacks.map(({ id, message, name, title, img }) => (
-                    <div className="feedback" key={id}>
-                        <span style={{ zIndex: 1, position: "relative" }}>{message}</span>
+                    <div className="heroBlock" key={id}>
+                        <span className='feedbackDesc'>{message}</span>
                         <div className='feedbackName'>
                             <img src={img} alt={name} />
                             <div>

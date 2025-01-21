@@ -65,6 +65,7 @@
 
 .heroBlock {
     position: relative;
+    break-inside: avoid;
     background-color: #120f00;
     border-top: 1px solid #ffd900;
     padding: 20px;
@@ -82,19 +83,24 @@
     z-index: 1;
 }
 
-.heroBlock p:nth-child(2) {
+.feedbacks .heroBlock {
+    margin-bottom: 20px;
+}
+
+.heroTitle {
     font-size: 20px;
     padding: 32px 0px 6px 0px;
     z-index: 1;
     position: inherit;
 }
 
-.heroBlock p:nth-child(3) {
+.heroDesc {
     color: #ffd900b3;
+    position: inherit;
     font-size: 14px;
     line-height: 1.3em;
+    max-width: 360px;
     z-index: 1;
-    position: inherit;
 }
 
 .background-grid {

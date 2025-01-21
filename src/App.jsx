@@ -9,6 +9,7 @@ import Why from './components/Why';
 import Team from './components/Team';
 import Join from './components/Join';
 import Feedbacks from './components/Feedbacks';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Team />
       <Join />
       <Feedbacks />
+      <Faq />
     </div>
   )
 }

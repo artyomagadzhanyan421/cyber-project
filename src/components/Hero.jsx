@@ -16,20 +16,20 @@ function Hero() {
         <div className="heroTwo">
             <div className='heroBlock'>
                 <img src="/hero/h1.svg" alt="image" style={{ position: "inherit", zIndex: 1 }} />
-                <p>Network Security</p>
-                <p>Safeguard your network infrastructure against unauthorized access and attacks.</p>
+                <p className='heroTitle'>Network Security</p>
+                <p className='heroDesc'>Safeguard your network infrastructure against unauthorized access and attacks.</p>
                 <div className="background-grid"></div>
             </div>
             <div className='heroBlock'>
                 <img src="/hero/h2.svg" alt="image" style={{ position: "inherit", zIndex: 1 }} />
-                <p>Security Audits</p>
-                <p>Comprehensive security reviews to ensure compliance, protection, and efficiency.</p>
+                <p className='heroTitle'>Security Audits</p>
+                <p className='heroDesc'>Comprehensive security reviews to ensure compliance, protection, and efficiency.</p>
                 <div className="background-grid"></div>
             </div>
             <div className='heroBlock'>
                 <img src="/hero/h3.svg" alt="image" style={{ position: "inherit", zIndex: 1 }} />
-                <p>Forensics Analysis</p>
-                <p>In-depth investigations to understand breaches and prevent future occurrences.</p>
+                <p className='heroTitle'>Forensics Analysis</p>
+                <p className='heroDesc'>In-depth investigations to understand breaches and prevent future occurrences.</p>
                 <div className="background-grid"></div>
             </div>
         </div>
