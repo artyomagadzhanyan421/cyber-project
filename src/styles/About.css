@@ -86,6 +86,7 @@
 
 .slidesMain.slideTwo {
     animation: scrollInfiniteTwo 20s linear infinite;
+    margin: 20px 0px;
 }
 
 .whySpan {

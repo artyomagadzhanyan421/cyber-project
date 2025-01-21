@@ -4,6 +4,21 @@ import React from 'react';
 import "../styles/About.css";
 
 function About() {
+  const values = [
+    "Trust",
+    "Integrity",
+    "Innovation",
+    "Security",
+    "Resilience",
+    "Empowerment",
+    "Collaboration",
+    "Expertise",
+    "Transparency",
+    "Commitment",
+    "Expert",
+    "Performance",
+  ];
+
   return (
     <div className='Block' id='about'>
       <p className="subHead">/ About cipher</p>
@@ -17,62 +32,21 @@ function About() {
         </div>
         <div className='aboutInfo' style={{ zIndex: 1 }}>
           <p className='aboutTitle'>/ Vision</p>
-          <span className='aboutDesc'>our vision is to be a global leader in cybersecurity, creating a secure digital future for businesses through innovation and resilience against cyber threats.</span>
+          <span className='aboutDesc'>Our vision is to be a global leader in cybersecurity, creating a secure digital future for businesses through innovation and resilience against cyber threats.</span>
           <div className="about-grid"></div>
         </div>
       </div>
 
       <div className='aboutSlides'>
         <div className='slidesMain'>
-          <p>Trust</p>
-          <div className="aboutCube"></div>
-          <p>Integrity</p>
-          <div className="aboutCube"></div>
-          <p>Innovation</p>
-          <div className="aboutCube"></div>
-          <p>Security</p>
-          <div className="aboutCube"></div>
-          <p>Resilience</p>
-          <div className="aboutCube"></div>
-          <p>Empowerment</p>
-          <div className="aboutCube"></div>
-          <p>Collaboration</p>
-          <div className="aboutCube"></div>
-          <p>Expertise</p>
-          <div className="aboutCube"></div>
-          <p>Transparency</p>
-          <div className="aboutCube"></div>
-          <p>Commitment</p>
-          <div className="aboutCube"></div>
-          <p>Expert</p>
-          <div className="aboutCube"></div>
-          <p>Performance</p>
-          <div className="aboutCube"></div>
-
-          <p>Trust</p>
-          <div className="aboutCube"></div>
-          <p>Integrity</p>
-          <div className="aboutCube"></div>
-          <p>Innovation</p>
-          <div className="aboutCube"></div>
-          <p>Security</p>
-          <div className="aboutCube"></div>
-          <p>Resilience</p>
-          <div className="aboutCube"></div>
-          <p>Empowerment</p>
-          <div className="aboutCube"></div>
-          <p>Collaboration</p>
-          <div className="aboutCube"></div>
-          <p>Expertise</p>
-          <div className="aboutCube"></div>
-          <p>Transparency</p>
-          <div className="aboutCube"></div>
-          <p>Commitment</p>
-          <div className="aboutCube"></div>
-          <p>Expert</p>
-          <div className="aboutCube"></div>
-          <p>Performance</p>
-          <div className="aboutCube"></div>
+          {Array.from({ length: 2 })
+            .flatMap(() => values)
+            .map((value, index) => (
+              <React.Fragment key={index}>
+                <p>{value}</p>
+                <div className="aboutCube"></div>
+              </React.Fragment>
+            ))}
         </div>
       </div>
 
@@ -85,7 +59,7 @@ function About() {
         <span>Our mission is to create a secure digital landscape for businesses of all sizes</span>
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

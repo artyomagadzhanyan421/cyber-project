@@ -12,7 +12,7 @@ const useTeamData = () => {
                 assessments: "360+",
                 onTimeDelivery: "95%"
             },
-            image: "/team/t1.jpg"
+            image: "/team/t1.avif"
         },
         {
             name: "Maria Chen",
@@ -24,7 +24,7 @@ const useTeamData = () => {
                 assessments: "420+",
                 onTimeDelivery: "97%"
             },
-            image: "/team/t2.jpg"
+            image: "/team/t2.avif"
         },
         {
             name: "David Patel",
@@ -36,7 +36,7 @@ const useTeamData = () => {
                 assessments: "480+",
                 onTimeDelivery: "99%"
             },
-            image: "/team/t3.jpg"
+            image: "/team/t3.avif"
         }
     ]);
 
