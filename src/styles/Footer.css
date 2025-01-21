@@ -7,7 +7,9 @@ footer {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #ffd900;
+    gap: 30px;
     padding: 30px;
+    font-size: 14px;
 }
 
 .footerBlock {
@@ -19,7 +21,6 @@ footer {
 
 .copyright {
     color: #ffd90080;
-    font-size: 14px;
     line-height: 1.3em;
 }
 
@@ -31,14 +32,13 @@ footer {
 .footerLinks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 600px;
+    width: 630px;
     gap: 30px;
 }
 
 .footerLinks ul {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
     gap: 9px;
 }
 
