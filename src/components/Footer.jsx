@@ -11,7 +11,7 @@ function Footer() {
           <a href="#" className='logo'>
             <img src="/logo.svg" alt="logo" />
           </a>
-          <span className='copyright'>© 2024 Cipher. <br />All rights reserved.</span>
+          <span className='copyright'>© 2025 Cipher. <br />All rights reserved.</span>
         </div>
         <div className="footerLinks">
           <ul>
