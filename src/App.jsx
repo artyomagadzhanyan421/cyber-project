@@ -10,6 +10,7 @@ import Team from './components/Team';
 import Join from './components/Join';
 import Feedbacks from './components/Feedbacks';
 import Faq from './components/Faq';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Join />
       <Feedbacks />
       <Faq />
+      <Contact />
     </div>
   )
 }

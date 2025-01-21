@@ -43,10 +43,21 @@
 }
 
 .links {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 16px;
     font-size: 14px;
+    z-index: 1;
+}
+
+.links.contactLinks {
+    margin-top: 32px;
+}
+
+.links.contactLinks a {
+    text-align: center;
+    width: 100%;
 }
 
 .links.servicesLinks {
@@ -68,7 +79,7 @@
     break-inside: avoid;
     background-color: #120f00;
     border-top: 1px solid #ffd900;
-    padding: 20px;
+    padding: 25px;
     z-index: 2;
 }
 

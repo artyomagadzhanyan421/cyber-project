@@ -1,0 +1,83 @@
+.contactGrid {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    grid-gap: 20px;
+    margin: 80px 0px 20px 0px;
+}
+
+.formHead {
+    position: relative;
+    z-index: 1;
+    font-size: 48px;
+    max-width: 480px;
+    line-height: 1em;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.formInput, 
+form button {
+    position: relative;
+    z-index: 1;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+    color: black;
+    background: #ffd900;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.contactInputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formInput span {
+    font-size: 13px;
+}
+
+.formInput input, 
+.formInput textarea {
+    background: none;
+    outline: none;
+    resize: none;
+    cursor: pointer;
+    border: 1px solid #ffd90026;
+    padding: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.formInput input:hover, 
+.formInput textarea:hover {
+    border-color: #ffd90080;
+}
+
+.formInput input:focus, 
+.formInput textarea:focus {
+    border-color: #ffd90080;
+}
+
+.formInput textarea {
+    height: 230px;
+}
+
+.formInput input::placeholder, 
+.formInput textarea::placeholder {
+    color: #ffd90080;
+}
