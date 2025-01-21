@@ -4,24 +4,11 @@ import React from 'react';
 import "../styles/Navbar.css";
 
 function Navbar() {
-    const cube = {
-        background: "black",
-        width: 16.5, 
-        height: 16.5
-    }
-
-    const logo = {
-        display: "flex",
-        width: "fit-content",
-        gap: 8
-    }
-
     return (
         <div className="Navbar">
             <nav>
-                <a href="#" style={logo}>
-                    <div style={cube}></div>
-                    <span style={{ color: "black" }}>CIPHER</span>
+                <a href="#" className='logo'>
+                    <img src="/logo.svg" alt="logo" />
                 </a>
                 <ul>
                     <li><a href="#about">About</a></li>

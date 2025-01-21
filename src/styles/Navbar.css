@@ -11,6 +11,15 @@ nav {
     padding: 16px 13px;
 }
 
+.logo {
+    display: flex;
+}
+
+.logo img {
+    filter: grayscale(100%) brightness(0);
+    width: 80px;
+}
+
 nav ul {
     display: flex;
     gap: 10px;
