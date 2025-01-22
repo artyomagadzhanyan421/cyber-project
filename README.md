@@ -1,3 +1,5 @@
+![Project Logo](./public/cover.png)
+
 ## Cybersecurity Single-Page Website
 
 * React reusable components
