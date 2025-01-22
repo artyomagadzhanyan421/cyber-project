@@ -65,7 +65,7 @@ function Contact() {
                 </form>
             </div>
             <div className="aboutVideo">
-                <video src="/contact/contact.mp4" muted autoPlay loop></video>
+                <video src="./contact/contact.mp4" muted autoPlay loop></video>
                 <div className="corner cRightTop"></div>
                 <div className="corner cRightBottom"></div>
                 <div className="corner cLeftTop"></div>
