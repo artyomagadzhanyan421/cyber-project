@@ -48,3 +48,30 @@ footer {
         width: 1496px;
     }
 }
+
+@media(max-width: 1200px) {
+    .footerLinks {
+        width: 550px;
+    }
+}
+
+@media(max-width: 1000px) {
+    footer {
+        flex-direction: column-reverse;
+        gap: 75px;
+    }
+
+    .footerLinks {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .footerHead {
+        margin-bottom: 10px;
+    }
+
+    .copyright {
+        margin-top: 25px;
+    }
+}

@@ -16,6 +16,9 @@ function Navbar() {
                     <li><a href="#feedbacks">Testimonials</a></li>
                     <li><a href="#contact">Boost Security</a></li>
                 </ul>
+                <div className="toggle">
+                    <box-icon name='menu' color="black"></box-icon>
+                </div>
             </nav>
         </div>
     )

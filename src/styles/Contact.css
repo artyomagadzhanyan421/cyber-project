@@ -89,3 +89,27 @@ form button:hover {
 .formInput textarea::placeholder {
     color: #ffd90080;
 }
+
+@media(max-width: 1200px) {
+    .contactGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 800px) {
+    .contactInputs {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 640px) {
+    .formHead {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 640px) {
+    .formHead {
+        font-size: 30px;
+    }
+}

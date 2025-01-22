@@ -1,5 +1,10 @@
 .Navbar {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
     padding: 20px 25px;
+    z-index: 10;
 }
 
 nav {
@@ -51,5 +56,19 @@ nav ul li:nth-child(4) a {
 nav ul li:nth-child(4) a:hover {
     background-color: #ffd900;
     color: black;
+}
 
+.toggle {
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width: 800px) {
+    nav ul {
+        display: none;
+    }
+
+    .toggle {
+        display: flex;
+    }
 }

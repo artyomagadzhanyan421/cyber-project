@@ -15,6 +15,10 @@
     font-size: 14px;
 }
 
+.faq p {
+    line-height: 1.5em;
+}
+
 .faq div {
     display: flex;
     align-items: center;

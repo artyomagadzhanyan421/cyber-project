@@ -1,7 +1,7 @@
 .Hero {
     position: relative;
     overflow: hidden;
-    padding: 40px 25px;
+    padding: 140px 25px 40px 25px;
 }
 
 .Hero::before {
@@ -176,5 +176,41 @@
     .Hero {
         margin: auto;
         width: 1496px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .heading.blockHead {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .Hero .heroImage {
+        display: none;
+    }
+
+    .heroTwo {
+        grid-template-columns: 1fr;
+    }
+
+    .heading {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 640px) {
+    .heading.blockHead {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 500px) {
+    .heading {
+        font-size: 48px;
+    }
+
+    .heading.blockHead {
+        font-size: 30px;
     }
 }

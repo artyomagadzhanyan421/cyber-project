@@ -107,4 +107,24 @@
     .member {
         grid-template-columns: 1fr;
     }
+
+    .memberImage img {
+        object-position: top;
+    }
+
+    .memeberStats {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 650px) {
+    .memeberStats {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 450px) {
+    .memeberStats div p {
+        font-size: 55px;
+    }
 }
