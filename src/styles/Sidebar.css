@@ -1,0 +1,29 @@
+.Sidebar {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 65px;
+    left: 0%;
+    padding: 25px;
+    z-index: 10;
+}
+
+.sideLinks {
+    background-color: #ffd900;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    gap: 13px;
+    padding: 25px;
+    transition: 0.5s;
+}
+
+.sideLinks.pop {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.sideLinks li a {
+    color: black;
+}
